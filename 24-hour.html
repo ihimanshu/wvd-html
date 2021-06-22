@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/styles-24-hour.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+
+    <script
+      src="https://kit.fontawesome.com/a7087b38e6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>24 Hour Status Dashboard</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header-top container">
+          <div class="item p-0">
+            <form class="container">
+              <div class="item-auto">
+                <div class="select-tenant">
+                  <label for="standard-select-01">Select Tenant</label>
+                  <div class="select mt-1">
+                    <select id="standard-select-01">
+                      <option value="Option 1">Option 1</option>
+                      <option value="Option 2">Option 2</option>
+                      <option value="Option 3">Option 3</option>
+                      <option value="Option 4">Option 4</option>
+                      <option value="Option 5">Option 5</option>
+                    </select>
+                  </div>
+                  <div class="mt-1 text-end">
+                    <button type="button" class="open-tenant">
+                      <i class="fas fa-grip-horizontal"></i> Open Tenant
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item-auto p-0">
+                <div class="container select-date">
+                  <div class="item-auto lbl">
+                    <label for="standard-select02">Select Date</label>
+                  </div>
+                  <div class="item-auto">
+                    <div class="select">
+                      <select id="standard-select-02">
+                        <option value="Option 1">Option 1</option>
+                        <option value="Option 2">Option 2</option>
+                        <option value="Option 3">Option 3</option>
+                        <option value="Option 4">Option 4</option>
+                        <option value="Option 5">Option 5</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="container data-scope">
+                  <div class="item-auto lbl">
+                    <label for="standard-select03">Select Date Scope</label>
+                  </div>
+                  <div class="item-auto">
+                    <div class="select mt-1">
+                      <select id="standard-select-03">
+                        <option value="Option 1">Option 1</option>
+                        <option value="Option 2">Option 2</option>
+                        <option value="Option 3">Option 3</option>
+                        <option value="Option 4">Option 4</option>
+                        <option value="Option 5">Option 5</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="item-auto p-0">
+                <fieldset>
+                  <legend>Chart Attributes</legend>
+                  <div class="container">
+                    <div class="f-ele">
+                      <div class="container chart-type">
+                        <div class="item-auto p-0 lbl text-end">
+                          <label for="standard-select04">Chart Type</label>
+                        </div>
+                        <div class="item-auto p-0">
+                          <div class="select">
+                            <select id="standard-select-04">
+                              <option value="Option 1">Option 1</option>
+                              <option value="Option 2">Option 2</option>
+                              <option value="Option 3">Option 3</option>
+                              <option value="Option 4">Option 4</option>
+                              <option value="Option 5">Option 5</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="container duration">
+                        <div class="item-auto p-0 lbl text-end">
+                          <label for="standard-select05">Duration</label>
+                        </div>
+                        <div class="item-auto p-0">
+                          <div class="select mt-1">
+                            <select id="standard-select-05">
+                              <option value="Option 1">Option 1</option>
+                              <option value="Option 2">Option 2</option>
+                              <option value="Option 3">Option 3</option>
+                              <option value="Option 4">Option 4</option>
+                              <option value="Option 5">Option 5</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="refresh-status">
+                      <button type="button">
+                        <i class="fas fa-sync"></i><br />
+                        Refresh Status
+                      </button>
+                    </div>
+                  </div>
+                </fieldset>
+              </div>
+            </form>
+          </div>
+          <div class="item item-end text-center">
+            <div class="status-box">
+              WVD Cost Analyzer Agent Status:
+              <div class="status">Stopped</div>
+            </div>
+            <small>Auto Refresh: 10 Mins.</small>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <input type="text" placeholder="Date:" class="date-txt" />
+        </div>
+      </header>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

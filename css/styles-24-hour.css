@@ -1,0 +1,90 @@
+.item-end {
+  max-width: 165px;
+  width: 100%;
+  margin-left: auto;
+}
+.status-box {
+  font-size: 12px;
+  padding: 10px;
+  background-color: #eef8d9;
+  border-left: 4px solid #d3dac9;
+  border-right: 4px solid #d3dac9;
+  border-top: 1px solid #d3dac9;
+  border-bottom: 1px solid #d3dac9;
+}
+.status {
+  margin-top: 10px;
+  background-color: #ffffff;
+  color: red;
+  padding: 8px;
+}
+
+.select-tenant label {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.open-tenant {
+  padding: 6px 8px;
+  border-radius: 0px;
+  background: transparent;
+  border: 2px solid#4380b3;
+  cursor: pointer;
+}
+
+.select-date .select,
+.data-scope .select {
+  min-width: 30ch;
+}
+
+.select-date,
+.data-scope,
+.chart-type,
+.duration {
+  align-items: center;
+}
+
+.item-auto.lbl {
+  max-width: 90px;
+  width: 100%;
+  padding-right: 0px;
+}
+
+fieldset {
+  border: 1px solid var(--select-border);
+}
+
+fieldset label {
+  padding-right: 10px;
+}
+
+.refresh-status {
+  padding-left: 10px;
+}
+
+.refresh-status button i {
+  margin: 13px;
+  color: var(--refresh-btn-border);
+}
+
+.refresh-status button {
+  border: 1px solid var(--refresh-btn-border);
+  border-radius: 0px;
+  background: transparent;
+  padding: 5px;
+}
+
+.header-bottom {
+  background: var(--background);
+  padding: 7px 10px;
+}
+
+.header-bottom .date-txt {
+  width: 100%;
+  border: 1px solid var(--select-border);
+  padding: 0.5em;
+  font-size: 14px;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
