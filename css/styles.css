@@ -36,6 +36,10 @@ body {
   padding-right: 15px;
 }
 
+.item-g-0 {
+  flex-grow: 1; /* default 0 */
+}
+
 .item-auto {
   padding-left: 15px;
   padding-right: 15px;
@@ -43,6 +47,10 @@ body {
 
 .p-0 {
   padding: 0px;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
 }
 
 .mt-1 {

@@ -1,3 +1,4 @@
+/* Header */
 .item-end {
   max-width: 165px;
   width: 100%;
@@ -87,4 +88,44 @@ fieldset label {
   line-height: 1.1;
   background-color: #fff;
   background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+/* Main content */
+.main-content {
+  border-top: 2px solid var(--select-border);
+}
+
+.user-sessions,
+.average,
+.hosts-scaling {
+  padding: 10px;
+  margin-bottom: 5px;
+  background: var(--background);
+}
+
+.item-g-0 {
+  border-top: 2px solid var(--select-border);
+  background: #ffffff;
+  min-height: 200px;
+}
+
+.item-left-width {
+  max-width: 150px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.main-content .heading {
+  background: var(--background);
+  padding: 7px;
+  font-weight: bold;
+}
+
+.main-content .heading i {
+  margin-right: 10px;
+}
+
+.active-user,
+.chart {
+  padding: 7px;
 }
