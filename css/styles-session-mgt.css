@@ -1,0 +1,47 @@
+.session-mgt-wrapper .container-super-wrap .item-auto {
+  border-right: 1px solid var(--select-border);
+}
+
+.session-mgt-wrapper .container-super-wrap .item-auto:last-child {
+  border-right: none;
+}
+
+.session-mgt-wrapper .btn-menu {
+  padding-left: 0px;
+  margin: 0px;
+  list-style-type: none;
+}
+
+.session-mgt-wrapper .btn-menu li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px 7px;
+  width: 100%;
+  max-width: 90px;
+}
+
+.session-mgt-wrapper .btn-menu .refresh-btn,
+.session-mgt-wrapper .btn-menu .remove-btn {
+  border: none;
+  background: transparent;
+  font-size: 12px;
+  width: 100%;
+  min-width: 76px;
+  cursor: pointer;
+}
+
+.session-mgt-wrapper .btn-menu .refresh-btn i {
+  margin-bottom: 8px;
+  color: #000000;
+  font-size: 17px;
+}
+
+.session-mgt-wrapper .btn-menu .remove-btn i {
+  margin-bottom: 8px;
+  color: orange;
+  font-size: 17px;
+}
+
+.session-mgt-wrapper .btn-menu .remove-btn.new i {
+  color: var(--refresh-btn-border);
+}

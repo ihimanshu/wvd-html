@@ -25,6 +25,10 @@ body {
   display: flex; /* or inline-flex */
 }
 
+.container-super-wrap {
+  flex-wrap: wrap;
+}
+
 .header {
   padding-top: 10px;
   padding-bottom: 10px;
