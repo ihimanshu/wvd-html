@@ -103,7 +103,7 @@ fieldset label {
   background: var(--background);
 }
 
-.item-g-0 {
+.hours-wrapper .item-g-0 {
   border-top: 2px solid var(--select-border);
   background: #ffffff;
   min-height: 200px;
